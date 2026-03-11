@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T23:10:28 IST" name="Default suite" finished-at="2026-03-11T23:10:42 IST" duration-ms="14463">
+    <groups>
+    </groups>
+    <test started-at="2026-03-11T23:10:28 IST" name="Default test" finished-at="2026-03-11T23:10:42 IST" duration-ms="14463">
+      <class name="Demo.DemoTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:28 IST" name="beforeSuite" finished-at="2026-03-11T23:10:28 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:28 IST" name="setup" finished-at="2026-03-11T23:10:33 IST" duration-ms="5459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:33 IST" name="startTest" finished-at="2026-03-11T23:10:33 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Demo.DemoTest.VerifyDemoTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="VerifyDemoTest()[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:33 IST" name="VerifyDemoTest" finished-at="2026-03-11T23:10:42 IST" duration-ms="8585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:42 IST" name="tearDown" finished-at="2026-03-11T23:10:42 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:42 IST" name="afterMethod" finished-at="2026-03-11T23:10:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDemoTest status=SUCCESS method=DemoTest.VerifyDemoTest()[pri:0, instance:Demo.DemoTest@291b4bf5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Demo.DemoTest@291b4bf5]" started-at="2026-03-11T23:10:42 IST" name="afterSuite" finished-at="2026-03-11T23:10:43 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Demo.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
